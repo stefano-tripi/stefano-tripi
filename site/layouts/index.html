@@ -1,13 +1,55 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<!-- BANDA 1: INTRO SECTION -->
+<section class="intro-section">
+  <h1>{{ .Params.intro_title }}</h1>
+  <h2>{{ .Params.intro_subtitle }}</h2>
+  <p>{{ .Params.intro_bio }}</p>
+</section>
 
-{{ partial "short-text" .Params.blurb}}
+<!-- BANDA 2: ESPERIENZE E LOGHI -->
+<section class="esperienze-section">
+  <h3>Il mio percorso</h3>
+  <div class="testo-esperienze">
+    {{ .Params.testo_esperienze | markdownify }}
+  </div>
+  
+  <!-- Pulsante per la pagina in Inglese -->
+  <a href="{{ .Params.link_esperienze_en }}" class="btn-lingua">Read this section in English</a>
 
-{{ partial "2-up" .Params }}
+  <!-- Griglia Responsive Loghi Amministrazioni -->
+  <div class="griglia-loghi" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px;">
+    {{ range .Params.loghi_amministrazioni }}
+      <img src="{{ .immagine }}" alt="{{ .nome_ente }}">
+    {{ end }}
+  </div>
+</section>
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+<!-- BANDA 3: CONTRIBUTI E RICERCA -->
+<section class="contributi-section">
+  <h3>Pensiero e Ricerca</h3>
+  <div class="testo-contributi">
+    {{ .Params.testo_contributi | markdownify }}
+  </div>
+  
+  <!-- Pulsante per la pagina in Inglese -->
+  <a href="{{ .Params.link_contributi_en }}" class="btn-lingua">Read my publications in English</a>
+</section>
 
-{{ partial "blog" . }}
+<!-- BANDA 4: DAL CAMPO (LinkedIn) -->
+<section class="linkedin-section">
+  <h3>Dal Campo</h3>
+  <div class="linkedin-embed">
+    {{ .Params.linkedin_embed_code | safeHTML }}
+  </div>
+</section>
+
+<!-- BANDA 5: HOBBIES E PASSIONI -->
+<section class="hobbies-section">
+  <h3>Oltre il lavoro</h3>
+  <div class="testo-hobbies">
+    {{ .Params.testo_hobbies | markdownify }}
+  </div>
+</section>
 
 {{ end }}
