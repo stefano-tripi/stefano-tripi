@@ -19,7 +19,7 @@ products:
       fall in love with in our shop.
 immagine_intro: img/stefano_tripi_intro.png
 intro_title: Stefano Tripi
-intro_subtitle: Home page
+intro_subtitle: Dirigente pubblico | Public manager
 intro:
   heading: What we offer
   text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -41,7 +41,19 @@ testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
   dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
   trasformazione digitale e I.A., governance di progetti complessi, gestione
   delle performance...
-loghi_amministrazioni: []
+loghi_amministrazioni:
+  - nome_ente: Comune di Carpi
+    immagine: img/logo-comune-di-carpi.png
+  - nome_ente: Unione di Comuni della Romagna Forlivese
+    immagine: img/ucrf.jpg
+  - nome_ente: Agenzia Dogane e Monopoli
+    immagine: img/adm-1.jpg
+  - nome_ente: Comune di Modena
+    immagine: img/modena-1.jpg
+  - nome_ente: Comune di Calderara di Reno
+    immagine: img/calderara.jpg
+  - nome_ente: Unione Terre di Castelli
+    immagine: img/utdc-e1768153233963.jpg
 testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
   innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
   politiche e dell'organizzazione...
