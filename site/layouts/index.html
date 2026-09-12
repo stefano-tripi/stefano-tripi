@@ -11,11 +11,14 @@
 <section class="esperienze-section">
   <h3>Il mio percorso</h3>
   <div class="testo-esperienze">
-    {{ .Params.testo_esperienze | markdownify }}
+    {{ .Params.testo_esperienze_sintesi | markdownify }}
   </div>
   
-  <!-- Pulsante per la pagina in Inglese -->
-  <a href="{{ .Params.link_esperienze_en }}" class="btn-lingua">Read this section in English</a>
+  <!-- Pulsanti di approfondimento -->
+  <div class="pulsanti-azione" style="margin-top: 15px; margin-bottom: 20px;">
+    <a href="{{ .Params.link_esperienze_it }}" class="btn-primario">Leggi tutte le esperienze</a>
+    <a href="{{ .Params.link_esperienze_en }}" class="btn-lingua">Read in English</a>
+  </div>
 
   <!-- Griglia Responsive Loghi Amministrazioni -->
   <div class="griglia-loghi" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px;">
@@ -29,11 +32,14 @@
 <section class="contributi-section">
   <h3>Pensiero e Ricerca</h3>
   <div class="testo-contributi">
-    {{ .Params.testo_contributi | markdownify }}
+    {{ .Params.testo_contributi_sintesi | markdownify }}
   </div>
   
-  <!-- Pulsante per la pagina in Inglese -->
-  <a href="{{ .Params.link_contributi_en }}" class="btn-lingua">Read my publications in English</a>
+  <!-- Pulsanti di approfondimento -->
+  <div class="pulsanti-azione" style="margin-top: 15px;">
+    <a href="{{ .Params.link_contributi_it }}" class="btn-primario">Tutte le pubblicazioni</a>
+    <a href="{{ .Params.link_contributi_en }}" class="btn-lingua">Read in English</a>
+  </div>
 </section>
 
 <!-- BANDA 4: DAL CAMPO (LinkedIn) -->
@@ -48,7 +54,10 @@
 <section class="hobbies-section">
   <h3>Oltre il lavoro</h3>
   <div class="testo-hobbies">
-    {{ .Params.testo_hobbies | markdownify }}
+    {{ .Params.testo_hobbies_sintesi | markdownify }}
+  </div>
+  <div style="margin-top: 15px;">
+      <a href="{{ .Params.link_hobbies_it }}" class="btn-primario">Scopri di più</a>
   </div>
 </section>
 
