@@ -21,6 +21,31 @@ Ultimo contributo: Pattaro A.F., Tripi S. (2026), *Quale management pubblico nel
 *   Tripi S. (2011). [_Valutazione delle innovazioni nel settore pubblico: quale ruolo per la performance? Il caso di un premio per il miglioramento dei servizi_](https://stefanotripi1985.files.wordpress.com/2019/01/2011-valutazione-delle-innovazioni-nel-settore-pubblico_-quale-ruolo-per-la-performance_-il-caso-di-un-premio-per-il-miglioramento-dei-servizi.pdf). Studi e ricerche in economia aziendale e ragioneria, vol. 6 ([PDF](https://stefanotripi1985.files.wordpress.com/2019/01/2011-valutazione-delle-innovazioni-nel-settore-pubblico_-quale-ruolo-per-la-performance_-il-caso-di-un-premio-per-il-miglioramento-dei-servizi.pdf))
 *   Tripi S. (2005) [_Giovani, istituzioni, partecipazione. Esperienze e riflessioni_](https://stefanotripi1985.files.wordpress.com/2019/01/2005-giovani-istituzioni-partecipazione.-esperienze-e-riflessioni.pdf). Vivere la città di oggi. Progettare la città di domani ([PDF](https://stefanotripi1985.files.wordpress.com/2019/01/2005-giovani-istituzioni-partecipazione.-esperienze-e-riflessioni.pdf))
 
+### Tutti gli interventi:
+
+*   2026 intervento a convegno "VELA+ un progetto oltre lo smartworking" ad oggetto "Città intercomunale delle Terre d’Argine: una strategia per le persone pubbliche"
+*   2026 Formazione a Presidenti e Segretari di seggio elettorale, referendum confermativo, Comune di Carpi
+*   2025 intervento presso "Open Day concorso esperti giuridici ed assistenti amministrativi Unione Terre d'Argine" ad oggetto "Comune di Carpi: Il Settore S1 - Servizi alla Città"
+*   2025 Formazione a Presidenti e Segretari di seggio elettorale, referendum abrogativo, Comune di Carpi
+*   2025 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto "_Lavorare negli enti locali: motivazione ed innovazione a partire dai servizi al cittadino_"
+*   2024 Formazione a Presidenti e Segretari di seggio elettorale, elezioni comunali ed europee ed elezioni regionali, Comune di Carpi
+*   2023 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto “_Reclutamento, lavoro e gestione del personale nel settore pubblico: quali prospettive?_”
+*   2023 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto "_Programmazione e controllo nella PP.AA.: enti locali ed esperienze manageriali_"
+*   2022 Intervento a seminario Associazione AESA “_Normativa e prassi nella revisione prezzi in materia di appalti pubblici_”
+*   2022 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto "_Programmazione e controllo nella PP.AA. tra teoria e pratica: dalle basi alle nuove proposte di riforma_"
+*   2021 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto "_Le Unioni di Comuni in Italia ed in Emilia-Romagna: dalla teoria alla pratica_"
+*   2021 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Economia “Marco Biagi”, una lezione online ad oggetto "_Le Dogane: ruolo, funzioni, organizzazione_"
+*   2021 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto "Programmazione e controllo nella PP.AA. italiana: un’introduzione operativa"
+*   2020 Provincia di Modena ed Agenzia Dogane e Monopoli – Intervento ad iniziativa per le amministrazioni locali “Adempimenti fiscali per l’esercizio delle officine di produzione di energia elettrica da fonti rinnovabili”
+*   2020 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, una lezione online ad oggetto “La trasversalità del management pubblico tra government e governance. L’integrazione necessaria tra approcci e tematiche emergenti”
+*   2020 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, due lezioni online ad oggetto "Introduzione alla programmazione e al controllo nelle Amministrazioni Pubbliche"
+*   2019 Intervento presso Fondazione Marco Biagi, Università degli Studi di Modena e Reggio Emilia, convegno "Le trasformazioni dell'identità nel mondo di oggi", con intervento dal titolo "Le linee di tendenza dell'identità pubblica. Amministrazione, cittadini e valore pubblico"
+*   2019 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, corso di Contabilità e Controllo di Gestione nelle Aziende Pubbliche, in materia di programmazione e controllo negli enti locali.
+*   2019 Intervento a [convegno organizzato da ISTAT e Comune di Napoli "La statistica per il governo del territorio"](https://www.istat.it/it/archivio/229942) ([Programma](https://stefanotripi1985.files.wordpress.com/2019/05/programma-napoli-15-maggio_2019.pdf)) in merito all'uso degli indicatori del Benessere Equo e Sostenibile (BES) nel Documento Unico di Programmazione (DUP) degli enti locali
+*   2018 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Comunicazione ed Economia, corso di Comparative Public Management, in materia di programmazione e controllo per la riqualificazione urbana.
+*   2017 Docenza presso Università degli Studi di Modena e Reggio Emilia, Dipartimento di Economia "Marco Biagi", corso di Public Management, in materia di programmazione e controllo negli enti locali.
+*   2016 Forum PA Roma - Il Comune di Modena descrive la nuova gestione delle performance – intervento in materia di adeguamento dei sistemi di programmazione e controllo, e della relativa implementazione di sistemi di business intelligence
+
 ### Tutti i contributi diversi:
 
 *   2017 Articolo ["Vasco Modena Park, tutta la tecnologia che ha garantito la sicurezza" su rivista online agendadigitale.eu](https://www.agendadigitale.eu/infrastrutture/il-digitale-nella-gestione-del-vasco-modena-park-un-esempio-anche-per-la-pa/)
