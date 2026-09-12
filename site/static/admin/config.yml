@@ -2,44 +2,63 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "site/static/img" # Cartella dove finiranno i loghi e la foto
+media_folder: "site/static/img"
 public_folder: "img"
 
 collections:
   - name: "pages"
     label: "Gestione Pagine"
     files:
-      # 1. LA HOME PAGE PRINCIPALE (SINTESI)
+      # 1. LA HOME PAGE
       - file: "site/content/_index.md"
         label: "Home Page (Cruscotto Base)"
         name: "home"
         fields:
           # BANDA 1: INTRO
+          - {label: "Immagine a lato (Intro)", name: "immagine_intro", widget: "image", required: false}
           - {label: "Titolo Intro", name: "intro_title", widget: "string"}
           - {label: "Sottotitolo Intro", name: "intro_subtitle", widget: "string"}
           - {label: "Biografia Intro", name: "intro_bio", widget: "text"}
           
-          # BANDA 2: ESPERIENZE E LOGHI
-          - {label: "Sintesi Esperienze (Breve)", name: "testo_esperienze_sintesi", widget: "markdown"}
-          - {label: "Link pagina Esperienze (IT)", name: "link_esperienze_it", widget: "string", default: "/esperienze/"}
-          - {label: "Link pagina Esperienze (EN)", name: "link_esperienze_en", widget: "string", default: "/experience-en/"}
-          - label: "Loghi Amministrazioni"
+          # BANDA 2: ESPERIENZE E FORMAZIONE
+          - {label: "Immagine a lato (Esperienze)", name: "immagine_esperienze", widget: "image", required: false}
+          - {label: "Sintesi Esperienze Lavorative", name: "testo_esperienze_sintesi", widget: "markdown"}
+          - label: "Loghi Lavoro (Amministrazioni)"
             name: "loghi_amministrazioni"
             widget: "list"
             required: false
             fields:
               - {label: "Nome Ente", name: "nome_ente", widget: "string"}
               - {label: "Immagine Logo", name: "immagine", widget: "image"}
+          - {label: "Sintesi Esperienze Formative", name: "testo_formazione_sintesi", widget: "markdown"}
+          - label: "Loghi Formazione (Università/Enti)"
+            name: "loghi_formazione"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Nome Ente", name: "nome_ente", widget: "string"}
+              - {label: "Immagine Logo", name: "immagine", widget: "image"}
+          - {label: "Link pagina Esperienze (IT)", name: "link_esperienze_it", widget: "string", default: "/esperienze/"}
+          - {label: "Link pagina Esperienze (EN)", name: "link_esperienze_en", widget: "string", default: "/experience-en/"}
               
-          # BANDA 3: CONTRIBUTI E RICERCA
-          - {label: "Sintesi Pensiero e Ricerca (Breve)", name: "testo_contributi_sintesi", widget: "markdown"}
+          # BANDA 3: CONTRIBUTI E PUBBLICAZIONI
+          - {label: "Immagine a lato (Pubblicazioni)", name: "immagine_contributi", widget: "image", required: false}
+          - label: "Profili Esterni (Scholar, ORCID, ecc.)"
+            name: "link_esterni_pubblicazioni"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Nome Profilo (es. Google Scholar)", name: "nome_profilo", widget: "string"}
+              - {label: "URL Link", name: "url", widget: "string"}
           - {label: "Link pagina Contributi (IT)", name: "link_contributi_it", widget: "string", default: "/contributi/"}
           - {label: "Link pagina Contributi (EN)", name: "link_contributi_en", widget: "string", default: "/contributions-en/"}
           
           # BANDA 4: LINKEDIN
-          - {label: "Codice Embed LinkedIn", name: "linkedin_embed_code", widget: "text", required: false, hint: "Incolla qui l'HTML dal post di LinkedIn"}
+          - {label: "Immagine a lato (Dal Campo)", name: "immagine_linkedin", widget: "image", required: false}
+          - {label: "Codice Embed LinkedIn", name: "linkedin_embed_code", widget: "text", required: false}
           
           # BANDA 5: HOBBIES
+          - {label: "Immagine a lato (Hobbies)", name: "immagine_hobbies", widget: "image", required: false}
           - {label: "Sintesi Hobbies", name: "testo_hobbies_sintesi", widget: "markdown"}
           - {label: "Link pagina Hobbies (IT)", name: "link_hobbies_it", widget: "string", default: "/hobbies/"}
 
@@ -48,7 +67,7 @@ collections:
         label: "Esperienze (Testo Completo IT)"
         name: "esperienze_it"
         fields:
-          - {label: "Titolo Pagina", name: "title", widget: "string", default: "Esperienze Professionali"}
+          - {label: "Titolo Pagina", name: "title", widget: "string", default: "Esperienze Professionali e Formative"}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       - file: "site/content/contributi.md"
@@ -80,7 +99,6 @@ collections:
           - {label: "Title", name: "title", widget: "string", default: "My Contributions"}
           - {label: "Full Content", name: "body", widget: "markdown"}
 
-  # 4. IMPOSTAZIONI GENERALI
   - name: "impostazioni"
     label: "Impostazioni Generali"
     files:
