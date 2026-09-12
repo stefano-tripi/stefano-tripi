@@ -57,11 +57,19 @@ loghi_amministrazioni:
 testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
   innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
   politiche e dell'organizzazione...
+loghi_formazione:
+  - nome_ente: Scuola Nazionale dell'Amministrazione
+    immagine: img/sna-1.jpg
+  - nome_ente: Università degli Studi di Modena e Reggio Emilia
+    immagine: img/unimore.png
+  - nome_ente: Alma Mater Studiorum - Università di Bologna
+    immagine: img/unibo-1.png
+  - nome_ente: Università degli Studi di Siena
+    immagine: img/unisi.jpg
 link_esperienze_it: esperienze.md
 link_esperienze_en: experiences-en.md
 link_contributi_it: contributi.md
 link_contributi_en: contributions-en.md
-linkedin_embed_code: Link a LinkedIn
 testo_hobbies_sintesi: "Gli interessi al di là del lavoro. Oltre alla famiglia e
   agli amici: enogastronomia, fotografia, fitness olistico e mindfulness,
   tecnologia, viaggi, libri e cinema (specie se di storia e fantascienza),
@@ -80,6 +88,7 @@ testo_contributi_sintesi: |-
   Academia.edu
 
   Resarchgate
+linkedin_embed_code: Link a LinkedIn
 subtitle: Support sustainable farming while enjoying a cup
 title: Great coffee with a conscience
 blurb:
