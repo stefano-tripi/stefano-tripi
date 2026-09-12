@@ -1,63 +1,129 @@
 {{ define "main" }}
 
 <!-- BANDA 1: INTRO SECTION -->
-<section class="intro-section">
-  <h1>{{ .Params.intro_title }}</h1>
-  <h2>{{ .Params.intro_subtitle }}</h2>
-  <p>{{ .Params.intro_bio }}</p>
-</section>
-
-<!-- BANDA 2: ESPERIENZE E LOGHI -->
-<section class="esperienze-section">
-  <h3>Il mio percorso</h3>
-  <div class="testo-esperienze">
-    {{ .Params.testo_esperienze_sintesi | markdownify }}
-  </div>
-  
-  <!-- Pulsanti di approfondimento -->
-  <div class="pulsanti-azione" style="margin-top: 15px; margin-bottom: 20px;">
-    <a href="{{ .Params.link_esperienze_it }}" class="btn-primario">Leggi tutte le esperienze</a>
-    <a href="{{ .Params.link_esperienze_en }}" class="btn-lingua">Read in English</a>
-  </div>
-
-  <!-- Griglia Responsive Loghi Amministrazioni -->
-  <div class="griglia-loghi" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px;">
-    {{ range .Params.loghi_amministrazioni }}
-      <img src="{{ .immagine }}" alt="{{ .nome_ente }}">
+<section class="intro-section" style="margin-bottom: 40px;">
+  <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+      <h1>{{ .Params.intro_title }}</h1>
+      <h2>{{ .Params.intro_subtitle }}</h2>
+      <p>{{ .Params.intro_bio }}</p>
+    </div>
+    {{ if .Params.immagine_intro }}
+    <div style="flex-basis: 200px;">
+      <img src="{{ .Params.immagine_intro }}" alt="Intro" style="border-radius: 8px; width: 100%;">
+    </div>
     {{ end }}
   </div>
 </section>
 
-<!-- BANDA 3: CONTRIBUTI E RICERCA -->
-<section class="contributi-section">
-  <h3>Pensiero e Ricerca</h3>
-  <div class="testo-contributi">
-    {{ .Params.testo_contributi_sintesi | markdownify }}
+<!-- BANDA 2: ESPERIENZE (Lavoro e Formazione) -->
+<section class="esperienze-section" style="margin-bottom: 40px;">
+  <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+    {{ if .Params.immagine_esperienze }}
+    <div style="flex-basis: 200px;">
+      <img src="{{ .Params.immagine_esperienze }}" alt="Esperienze" style="border-radius: 8px; width: 100%;">
+    </div>
+    {{ end }}
+    <div style="flex: 1; min-width: 300px;">
+      
+      <!-- Lavoro -->
+      <h3>Esperienze Professionali</h3>
+      <div class="testo-esperienze">{{ .Params.testo_esperienze_sintesi | markdownify }}</div>
+      <div class="griglia-loghi" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 15px; margin-top: 15px; margin-bottom: 30px;">
+        {{ range .Params.loghi_amministrazioni }}
+          <img src="{{ .immagine }}" alt="{{ .nome_ente }}">
+        {{ end }}
+      </div>
+
+      <!-- Formazione -->
+      <h3>Esperienze Formative</h3>
+      <div class="testo-formazione">{{ .Params.testo_formazione_sintesi | markdownify }}</div>
+      <div class="griglia-loghi" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 15px; margin-top: 15px;">
+        {{ range .Params.loghi_formazione }}
+          <img src="{{ .immagine }}" alt="{{ .nome_ente }}">
+        {{ end }}
+      </div>
+      
+      <div class="pulsanti-azione" style="margin-top: 25px;">
+        <a href="{{ .Params.link_esperienze_it }}" class="btn-primario">Leggi tutte le esperienze</a>
+        <a href="{{ .Params.link_esperienze_en }}" class="btn-lingua">Read "My Experience"</a>
+      </div>
+    </div>
   </div>
-  
-  <!-- Pulsanti di approfondimento -->
-  <div class="pulsanti-azione" style="margin-top: 15px;">
-    <a href="{{ .Params.link_contributi_it }}" class="btn-primario">Tutte le pubblicazioni</a>
-    <a href="{{ .Params.link_contributi_en }}" class="btn-lingua">Read in English</a>
+</section>
+
+<!-- BANDA 3: CONTRIBUTI E PUBBLICAZIONI -->
+<section class="contributi-section" style="margin-bottom: 40px;">
+  <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Contributi e pubblicazioni</h3>
+      
+      <!-- Automazione Summary da contributi.md -->
+      <div class="testo-contributi">
+        {{ with .Site.GetPage "contributi" }}
+          {{ .Summary }}
+        {{ end }}
+      </div>
+
+      <!-- Profili esterni (Google Scholar, ORCID, ecc.) -->
+      {{ if .Params.link_esterni_pubblicazioni }}
+      <div style="margin-top: 15px;">
+        <strong>Profili accademici e di ricerca:</strong>
+        <ul style="list-style-type: none; padding-left: 0;">
+        {{ range .Params.link_esterni_pubblicazioni }}
+          <li style="display: inline-block; margin-right: 15px;">
+            <a href="{{ .url }}" target="_blank" style="text-decoration: underline;">{{ .nome_profilo }}</a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      <div class="pulsanti-azione" style="margin-top: 15px;">
+        <a href="{{ .Params.link_contributi_it }}" class="btn-primario">Tutte le pubblicazioni</a>
+        <a href="{{ .Params.link_contributi_en }}" class="btn-lingua">Read "My Contributions"</a>
+      </div>
+    </div>
+    {{ if .Params.immagine_contributi }}
+    <div style="flex-basis: 200px;">
+      <img src="{{ .Params.immagine_contributi }}" alt="Pubblicazioni" style="border-radius: 8px; width: 100%;">
+    </div>
+    {{ end }}
   </div>
 </section>
 
 <!-- BANDA 4: DAL CAMPO (LinkedIn) -->
-<section class="linkedin-section">
-  <h3>Dal Campo</h3>
-  <div class="linkedin-embed">
-    {{ .Params.linkedin_embed_code | safeHTML }}
+<section class="linkedin-section" style="margin-bottom: 40px;">
+  <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+    {{ if .Params.immagine_linkedin }}
+    <div style="flex-basis: 200px;">
+      <img src="{{ .Params.immagine_linkedin }}" alt="Dal Campo" style="border-radius: 8px; width: 100%;">
+    </div>
+    {{ end }}
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Dal Campo</h3>
+      <div class="linkedin-embed">
+        {{ .Params.linkedin_embed_code | safeHTML }}
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- BANDA 5: HOBBIES E PASSIONI -->
-<section class="hobbies-section">
-  <h3>Oltre il lavoro</h3>
-  <div class="testo-hobbies">
-    {{ .Params.testo_hobbies_sintesi | markdownify }}
-  </div>
-  <div style="margin-top: 15px;">
-      <a href="{{ .Params.link_hobbies_it }}" class="btn-primario">Scopri di più</a>
+<!-- BANDA 5: HOBBIES -->
+<section class="hobbies-section" style="margin-bottom: 40px;">
+  <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+      <h3>Oltre il lavoro</h3>
+      <div class="testo-hobbies">{{ .Params.testo_hobbies_sintesi | markdownify }}</div>
+      <div style="margin-top: 15px;">
+          <a href="{{ .Params.link_hobbies_it }}" class="btn-primario">Scopri di più</a>
+      </div>
+    </div>
+    {{ if .Params.immagine_hobbies }}
+    <div style="flex-basis: 200px;">
+      <img src="{{ .Params.immagine_hobbies }}" alt="Hobbies" style="border-radius: 8px; width: 100%;">
+    </div>
+    {{ end }}
   </div>
 </section>
 
