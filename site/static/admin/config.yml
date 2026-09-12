@@ -51,7 +51,6 @@ collections:
               - {label: "Nome Profilo (es. Google Scholar)", name: "nome_profilo", widget: "string"}
               - {label: "URL Link", name: "url", widget: "string"}
           - {label: "Link pagina Contributi (IT)", name: "link_contributi_it", widget: "string", default: "/contributi/"}
-          - {label: "Link pagina Contributi (EN)", name: "link_contributi_en", widget: "string", default: "/contributions-en/"}
           
           # BANDA 4: LINKEDIN
           - {label: "Immagine a lato (Dal Campo)", name: "immagine_linkedin", widget: "image", required: false}
@@ -90,13 +89,6 @@ collections:
         name: "experience_en"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "My Experience"}
-          - {label: "Full Content", name: "body", widget: "markdown"}
-
-      - file: "site/content/contributions-en.md"
-        label: "Contributi (English Version)"
-        name: "contributions_en"
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "My Contributions"}
           - {label: "Full Content", name: "body", widget: "markdown"}
 
   - name: "impostazioni"
