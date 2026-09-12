@@ -36,16 +36,23 @@ intro_bio: >-
 
 
   Cultore della materia in ambito Public Management dal 2019; contributore e docente occasionale in tali ambiti.
-testo_esperienze_sintesi: >-
-  💼 Gestione di strutture pubbliche anche di grandi dimensioni, servizi al
-  cittadino e di staff, sviluppo organizzativo, trasformazione digitale e I.A.,
-  governance di progetti complessi, gestione delle performance...
-
-
-  🏫 Management pubblico, diritto amministrativo, innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze politiche e dell'organizzazione...
+testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
+  dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
+  trasformazione digitale e I.A., governance di progetti complessi, gestione
+  delle performance...
+loghi_amministrazioni: []
+testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
+  innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
+  politiche e dell'organizzazione...
 link_esperienze_it: esperienze.md
 link_esperienze_en: experiences-en.md
-loghi_amministrazioni: []
+link_contributi_it: contributi.md
+link_contributi_en: contributions-en.md
+linkedin_embed_code: Link a LinkedIn
+testo_hobbies_sintesi: "Gli interessi al di là del lavoro. Oltre alla famiglia e
+  agli amici: enogastronomia, fotografia, fitness olistico e mindfulness,
+  tecnologia, viaggi, libri e cinema (specie se di storia e fantascienza),
+  musica (tastiera)."
 testo_contributi_sintesi: |-
   Ultimo contributo: ...
 
@@ -60,13 +67,6 @@ testo_contributi_sintesi: |-
   Academia.edu
 
   Resarchgate
-link_contributi_it: contributi.md
-link_contributi_en: contributions-en.md
-linkedin_embed_code: Link a LinkedIn
-testo_hobbies_sintesi: "Gli interessi al di là del lavoro. Oltre alla famiglia e
-  agli amici: enogastronomia, fotografia, fitness olistico e mindfulness,
-  tecnologia, viaggi, libri e cinema (specie se di storia e fantascienza),
-  musica (tastiera)."
 subtitle: Support sustainable farming while enjoying a cup
 title: Great coffee with a conscience
 blurb:
