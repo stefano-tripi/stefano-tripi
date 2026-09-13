@@ -17,7 +17,6 @@ products:
       tools for every taste and experience level. No matter if you roast your
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
-immagine_intro: img/stefano_tripi_intro.png
 intro_title: Stefano Tripi
 intro_subtitle: Dirigente pubblico | Public manager
 intro:
@@ -54,26 +53,11 @@ loghi_amministrazioni:
     immagine: img/calderara.jpg
   - nome_ente: Unione Terre di Castelli
     immagine: img/utdc-e1768153233963.jpg
-testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
-  innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
-  politiche e dell'organizzazione...
-loghi_formazione:
-  - nome_ente: Scuola Nazionale dell'Amministrazione
-    immagine: img/sna-1.jpg
-  - nome_ente: Università degli Studi di Modena e Reggio Emilia
-    immagine: img/unimore.png
-  - nome_ente: Alma Mater Studiorum - Università di Bologna
-    immagine: img/unibo-1.png
-  - nome_ente: Università degli Studi di Siena
-    immagine: img/unisi.jpg
-link_esperienze_it: esperienze.md
-link_esperienze_en: experiences-en.md
-link_contributi_it: contributi.md
-link_contributi_en: contributions-en.md
 testo_hobbies_sintesi: "Gli interessi al di là del lavoro. Oltre alla famiglia e
   agli amici: enogastronomia, fotografia, fitness olistico e mindfulness,
   tecnologia, viaggi, libri e cinema (specie se di storia e fantascienza),
   musica (tastiera)."
+link_contributi_en: contributions-en.md
 testo_contributi_sintesi: |-
   Ultimo contributo: ...
 
@@ -88,6 +72,22 @@ testo_contributi_sintesi: |-
   Academia.edu
 
   Resarchgate
+immagine_intro: img/stefano_tripi_intro.png
+testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
+  innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
+  politiche e dell'organizzazione...
+loghi_formazione:
+  - nome_ente: Scuola Nazionale dell'Amministrazione
+    immagine: img/sna-1.jpg
+  - nome_ente: Università degli Studi di Modena e Reggio Emilia
+    immagine: img/unimore.png
+  - nome_ente: Alma Mater Studiorum - Università di Bologna
+    immagine: img/unibo-1.png
+  - nome_ente: Università degli Studi di Siena
+    immagine: img/unisi.jpg
+link_esperienze_it: esperienze
+link_esperienze_en: experiences-en
+link_contributi_it: contributi
 linkedin_embed_code: Link a LinkedIn
 subtitle: Support sustainable farming while enjoying a cup
 title: Great coffee with a conscience
@@ -98,5 +98,5 @@ blurb:
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 image: /img/home-jumbotron.jpg
-link_hobbies_it: hobbies.md
+link_hobbies_it: hobbies
 ---
