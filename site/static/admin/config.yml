@@ -9,7 +9,7 @@ collections:
   - name: "pages"
     label: "Gestione Pagine"
     files:
-      # 1. LA HOME PAGE
+      # 1. LA HOME PAGE (Cruscotto)
       - file: "site/content/_index.md"
         label: "Home Page (Cruscotto Base)"
         name: "home"
@@ -67,6 +67,13 @@ collections:
         name: "esperienze_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Esperienze Professionali e Formative"}
+          # La magia del menu:
+          - label: "Menu di Navigazione"
+            name: "menu"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Nome nel Menu (es. Esperienze)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       - file: "site/content/contributi.md"
@@ -74,6 +81,13 @@ collections:
         name: "contributi_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Contributi e Pubblicazioni"}
+          # La magia del menu:
+          - label: "Menu di Navigazione"
+            name: "menu"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Nome nel Menu (es. Pubblicazioni)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       - file: "site/content/hobbies.md"
@@ -81,6 +95,20 @@ collections:
         name: "hobbies_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Oltre il lavoro: le mie passioni"}
+          # La magia del menu:
+          - label: "Menu di Navigazione"
+            name: "menu"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Nome nel Menu (es. Hobbies)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
+          - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
+          
+      - file: "site/content/privacy-policy.md"
+        label: "Privacy Policy"
+        name: "privacy_policy"
+        fields:
+          - {label: "Titolo Pagina", name: "title", widget: "string", default: "Privacy Policy"}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       # 3. PAGINE DETTAGLIO (INGLESE)
