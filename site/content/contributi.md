@@ -3,9 +3,7 @@ title: Contributi e Pubblicazioni
 ---
 Ultimo contributo: Pattaro A.F., Tripi S. (2026), *Quale management pubblico nell’innovazione dei servizi amministrativi e creazione di valore nell’era dell’Intelligenza Artificiale? Alcune esperienze e riflessioni.* XLI Convegno nazionale AIDEA - Le intelligenze aziendali per la competitività sostenibile e il bene comune
 
-
-
-
+<!--more-->
 
 ### Tutte le pubblicazioni:
 
