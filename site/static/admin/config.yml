@@ -38,8 +38,12 @@ collections:
             fields:
               - {label: "Nome Ente", name: "nome_ente", widget: "string"}
               - {label: "Immagine Logo", name: "immagine", widget: "image"}
+          
+          # Gestione Pulsanti Esperienze
+          - {label: "Testo bottone Esperienze (IT)", name: "testo_bottone_esperienze_it", widget: "string", default: "Leggi tutte le esperienze"}
           - {label: "Link pagina Esperienze (IT)", name: "link_esperienze_it", widget: "string", default: "/esperienze/"}
-          - {label: "Link pagina Esperienze (EN)", name: "link_esperienze_en", widget: "string", default: "/experience-en/"}
+          - {label: "Testo bottone Esperienze (EN)", name: "testo_bottone_esperienze_en", widget: "string", default: "Bio & Experiences", required: false}
+          - {label: "Link pagina Esperienze (EN)", name: "link_esperienze_en", widget: "string", default: "/experience-en/", required: false}
               
           # BANDA 3: CONTRIBUTI E PUBBLICAZIONI
           - {label: "Immagine a lato (Pubblicazioni)", name: "immagine_contributi", widget: "image", required: false}
@@ -50,6 +54,7 @@ collections:
             fields:
               - {label: "Nome Profilo (es. Google Scholar)", name: "nome_profilo", widget: "string"}
               - {label: "URL Link", name: "url", widget: "string"}
+          - {label: "Testo bottone Contributi", name: "testo_bottone_contributi_it", widget: "string", default: "Vai a tutte le pubblicazioni →"}
           - {label: "Link pagina Contributi (IT)", name: "link_contributi_it", widget: "string", default: "/contributi/"}
           
           # BANDA 4: LINKEDIN
@@ -59,6 +64,7 @@ collections:
           # BANDA 5: HOBBIES
           - {label: "Immagine a lato (Hobbies)", name: "immagine_hobbies", widget: "image", required: false}
           - {label: "Sintesi Hobbies", name: "testo_hobbies_sintesi", widget: "markdown"}
+          - {label: "Testo bottone Hobbies", name: "testo_bottone_hobbies_it", widget: "string", default: "Scopri di più sui miei interessi"}
           - {label: "Link pagina Hobbies (IT)", name: "link_hobbies_it", widget: "string", default: "/hobbies/"}
 
       # 2. PAGINE DETTAGLIO (ITALIANO)
@@ -67,13 +73,12 @@ collections:
         name: "esperienze_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Esperienze Professionali e Formative"}
-          # La magia del menu:
           - label: "Menu di Navigazione"
             name: "menu"
             widget: "object"
             required: false
             fields:
-              - {label: "Nome nel Menu (es. Esperienze)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
+              - {label: "Nome nel Menu", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       - file: "site/content/contributi.md"
@@ -81,13 +86,12 @@ collections:
         name: "contributi_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Contributi e Pubblicazioni"}
-          # La magia del menu:
           - label: "Menu di Navigazione"
             name: "menu"
             widget: "object"
             required: false
             fields:
-              - {label: "Nome nel Menu (es. Pubblicazioni)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
+              - {label: "Nome nel Menu", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
 
       - file: "site/content/hobbies.md"
@@ -95,13 +99,12 @@ collections:
         name: "hobbies_it"
         fields:
           - {label: "Titolo Pagina", name: "title", widget: "string", default: "Oltre il lavoro: le mie passioni"}
-          # La magia del menu:
           - label: "Menu di Navigazione"
             name: "menu"
             widget: "object"
             required: false
             fields:
-              - {label: "Nome nel Menu (es. Hobbies)", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
+              - {label: "Nome nel Menu", name: "main", widget: "object", fields: [{label: "Mostra nel Menu principale?", name: "name", widget: "string", required: false}]}
           - {label: "Contenuto Esteso", name: "body", widget: "markdown"}
           
       - file: "site/content/privacy-policy.md"
