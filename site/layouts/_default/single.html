@@ -1,6 +1,13 @@
 {{ define "main" }}
-
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
-{{ .Content }}
-
+<article class="max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-sm rounded-xl">
+    <!-- Titolo della pagina -->
+    <h1 class="text-3xl md:text-4xl font-extrabold text-istituzionale mb-8 border-b-2 border-accento pb-4">
+        {{ .Title }}
+    </h1>
+    
+    <!-- Contenuto con classe 'prose' che formatta in automatico il Markdown -->
+    <div class="prose prose-lg prose-blue max-w-none text-gray-700 leading-relaxed">
+        {{ .Content }}
+    </div>
+</article>
 {{ end }}
