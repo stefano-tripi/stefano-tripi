@@ -1,5 +1,8 @@
 ---
 title: Esperienze Professionali
+menu:
+  main:
+    name: Biografia ed esperienze
 ---
 ### Biografia
 
