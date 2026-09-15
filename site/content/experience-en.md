@@ -1,5 +1,8 @@
 ---
 title: My Experience
+menu:
+  main:
+    name: Bio & experiences
 ---
 A public sector executive, he has served since 2022 as Head of the City Services Department for the Municipality of Carpi, a role encompassing General Services, Civil Registry Services, and City Relations.
 
