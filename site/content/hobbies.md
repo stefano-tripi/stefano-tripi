@@ -1,5 +1,8 @@
 ---
 title: "Oltre il lavoro: le mie passioni"
+menu:
+  main:
+    name: Hobbies
 ---
 Famiglia e amici
 
