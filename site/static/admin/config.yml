@@ -58,8 +58,9 @@ collections:
           - {label: "Link pagina Contributi (IT)", name: "link_contributi_it", widget: "string", default: "/contributi/"}
           
           # BANDA 4: LINKEDIN
-          - {label: "Immagine a lato (Dal Campo)", name: "immagine_linkedin", widget: "image", required: false}
-          - {label: "Codice Embed LinkedIn", name: "linkedin_embed_code", widget: "text", required: false}
+          - {label: "Immagine a lato (LinkedIn)", name: "immagine_linkedin", widget: "image", required: false}
+          - {label: "Testo Link LinkedIn", name: "testo_link_linkedin", widget: "string", default: "Vai al mio profilo LinkedIn →"}
+          - {label: "URL Profilo LinkedIn", name: "link_linkedin", widget: "string", default: "https://www.linkedin.com/in/stefanotripi/"}
           
           # BANDA 5: HOBBIES
           - {label: "Immagine a lato (Hobbies)", name: "immagine_hobbies", widget: "image", required: false}
