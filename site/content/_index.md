@@ -38,6 +38,8 @@ testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
   innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
   politiche e dell'organizzazione...
 loghi_formazione:
+  - nome_ente: Andigel
+    immagine: img/andigel.jpg
   - nome_ente: Scuola Nazionale dell'Amministrazione
     immagine: img/sna-1.jpg
   - nome_ente: Università degli Studi di Modena e Reggio Emilia
