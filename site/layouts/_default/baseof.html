@@ -25,21 +25,49 @@
 
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
-    <!-- HEADER & MENU DINAMICO -->
+   <!-- HEADER & MENU DINAMICO -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Logo / Nome -->
             <a href="/" class="text-xl font-bold text-istituzionale tracking-tight">Stefano Tripi</a>
             
-            <!-- Menu di Navigazione -->
+            <!-- Menu di Navigazione (Desktop) -->
             <nav class="hidden md:flex space-x-6">
                 <a href="/" class="text-gray-600 hover:text-accento transition">Home</a>
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL }}" class="text-gray-600 hover:text-accento transition">{{ .Name }}</a>
                 {{ end }}
             </nav>
+
+            <!-- Pulsante Hamburger (Mobile) -->
+            <button id="mobile-menu-btn" class="md:hidden flex items-center text-gray-600 hover:text-accento focus:outline-none">
+                <!-- Icona SVG Hamburger -->
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Menu a tendina (Mobile) - Nascosto di default -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0">
+            <div class="px-4 pt-2 pb-4 space-y-1">
+                <a href="/" class="block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-accento hover:bg-gray-50 border-b border-gray-50">Home</a>
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}" class="block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-accento hover:bg-gray-50 border-b border-gray-50">{{ .Name }}</a>
+                {{ end }}
+            </div>
         </div>
     </header>
+
+    <!-- Script per aprire/chiudere il menu mobile -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
 
     <!-- CORPO CENTRALE (Le sue pagine) -->
     <main class="flex-grow max-w-5xl mx-auto px-4 py-10 w-full">
