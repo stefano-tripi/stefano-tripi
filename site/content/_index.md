@@ -1,14 +1,9 @@
 ---
+testo_link_linkedin: LinkedIn
 values:
   ? heading
   ? text
 immagine_intro: img/stefano_tripi_intro.png
-testo_bottone_hobbies_it: Hobbies
-products:
-  - ? image
-    ? text
-  - ? image
-    ? text
 intro_title: Stefano Tripi
 intro_subtitle: Dirigente pubblico | Public manager
 intro_bio: >-
@@ -22,6 +17,10 @@ intro_bio: >-
 
 
   Cultore della materia in ambito Public Management dal 2019; contributore e docente occasionale in tali ambiti.
+testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
+  dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
+  trasformazione digitale e I.A., governance di progetti complessi, gestione
+  delle performance...
 loghi_amministrazioni:
   - nome_ente: Comune di Carpi
     immagine: img/logo-comune-di-carpi.png
@@ -35,6 +34,9 @@ loghi_amministrazioni:
     immagine: img/calderara.jpg
   - nome_ente: Unione Terre di Castelli
     immagine: img/utdc-e1768153233963.jpg
+testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
+  innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
+  politiche e dell'organizzazione...
 loghi_formazione:
   - nome_ente: Scuola Nazionale dell'Amministrazione
     immagine: img/sna-1.jpg
@@ -47,6 +49,7 @@ loghi_formazione:
 testo_bottone_esperienze_it: Biografia ed esperienze
 link_esperienze_it: esperienze
 testo_bottone_esperienze_en: Bio & experiences
+link_esperienze_en: experience-en
 link_esterni_pubblicazioni:
   - nome_profilo: Google Scholar
     url: https://scholar.google.it/citations?user=wJJecnMAAAAJ&hl=en&sortby=pubdate
@@ -56,16 +59,18 @@ link_esterni_pubblicazioni:
     url: https://modena.academia.edu/StefanoTripi
   - nome_profilo: ResearchGate
     url: https://www.researchgate.net/profile/Stefano_Tripi
+link_contributi_it: contributi
+link_linkedin: https://www.linkedin.com/in/stefanotripi/
+testo_bottone_hobbies_it: Hobbies
+products:
+  - ? image
+    ? text
+  - ? image
+    ? text
 intro:
   ? heading
   ? text
-testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
-  dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
-  trasformazione digitale e I.A., governance di progetti complessi, gestione
-  delle performance...
-link_esperienze_en: experiences-en
 testo_bottone_contributi_it: Contributi, pubblicazioni, interventi
-link_contributi_it: contributi
 testo_hobbies_sintesi: "Gli interessi al di là del lavoro. Oltre alla famiglia e
   agli amici: enogastronomia, fotografia, fitness olistico e mindfulness,
   tecnologia, viaggi, libri e cinema (specie se di storia e fantascienza),
@@ -92,8 +97,5 @@ blurb:
   ? heading
   ? text
 image: /img/home-jumbotron.jpg
-testo_formazione_sintesi: 🏫 Management pubblico, diritto amministrativo,
-  innovazione della P.A. & I.A., valutazione delle politiche pubbliche, scienze
-  politiche e dell'organizzazione...
 link_hobbies_it: hobbies
 ---
