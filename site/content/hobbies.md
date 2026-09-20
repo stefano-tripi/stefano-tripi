@@ -4,14 +4,19 @@ menu:
   main:
     name: Hobbies
 ---
-Famiglia e amici
+**Famiglia e amici**
 
-Enogastronomia e viaggi: sommelier non professionista AIS dal 2018, assaggiatore ANAG grappe ed acqueviti dal 2023, master in gin nel 2026. Commissario degustatore categoria Gin per concorso "Alambicco d'Oro" 2026.
+**Enogastronomia e viaggi**
+Sommelier non professionista AIS dal 2018. 
+Assaggiatore ANAG grappe ed acqueviti dal 2023, master in gin nel 2026. 
+Commissario degustatore categoria Gin per concorso "Alambicco d'Oro" 2026.
 
-Fotografia e tecnologia
+**Fotografia e tecnologia**
 
-Fitness olistico e mindfulness
+**Fitness olistico e mindfulness**
 
-Libri e cinema: specie se di storia e fantascienza
+**Libri e cinema**
+Specie se di fantascienza, fantasy, thriller politici, storia.
 
-Musica: tastiera
+**Musica**
+Tastiera.
