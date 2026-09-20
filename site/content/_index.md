@@ -9,12 +9,12 @@ intro_subtitle: Dirigente pubblico | Public manager
 intro_bio: >
   Dirigente pubblico orientato all'innovazione e alla creazione di Valore
   Pubblico. Attualmente Dirigente del Settore Servizi alla Città e
-  Vicesegretario Generale presso il Comune di Carpi, mi occupo di sviluppare i
-  servizi al cittadino, ottimizzare le funzioni interne e curare le relazioni
-  istituzionali in un contesto territoriale di oltre 74.000 abitanti.
+  Vicesegretario Generale presso il Comune di Carpi, coordino in particolare i
+  servizi al cittadino, l'organizzazione delle funzioni interne e le relazioni
+  istituzionali.
 
 
-  Il mio percorso unisce una consolidata esperienza operativa e dirigenziale, maturata con crescenti responsabilità sia negli Enti Locali che nelle Agenzie dello Stato, ad una costante attività di valutazione e ricerca. In qualità di componente di Organismi Indipendenti di Valutazione (O.I.V.) e Cultore della materia universitario in Public Management, integro la capacità di analisi strategica con una forte vocazione alla sperimentazione organizzativa, accompagnando le istituzioni pubbliche nelle sfide della governance moderna.
+  Il mio percorso unisce una consolidata esperienza dirigenziale — maturata negli Enti Locali e nelle Agenzie dello Stato — all'attività di ricerca e valutazione come componente O.I.V. e Cultore in Public Management. Unisco analisi strategica e inclinazione alla sperimentazione per accompagnare le istituzioni nelle sfide della governance moderna.
 testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
   dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
   trasformazione digitale e I.A., governance di progetti complessi, gestione
