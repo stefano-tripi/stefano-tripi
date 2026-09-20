@@ -6,17 +6,15 @@ values:
 immagine_intro: img/stefano_tripi_intro.png
 intro_title: Stefano Tripi
 intro_subtitle: Dirigente pubblico | Public manager
-intro_bio: >-
-  Dirigente del Settore Servizi alla Città e Vice Segretario Generale del Comune
-  di Carpi dal 2022; in servizio come dirigente pubblico dal 2020, presso
-  Amministrazioni Locali e dello Stato. In precedenza, in servizio come
-  funzionario presso Amministrazioni Locali dal 2008 al 2019.
+intro_bio: >
+  Dirigente pubblico orientato all'innovazione e alla creazione di Valore
+  Pubblico. Attualmente Dirigente del Settore Servizi alla Città e
+  Vicesegretario Generale presso il Comune di Carpi, mi occupo di sviluppare i
+  servizi al cittadino, ottimizzare le funzioni interne e curare le relazioni
+  istituzionali in un contesto territoriale di oltre 74.000 abitanti.
 
 
-  Iscritto all'Elenco nazionale dei componenti degli Organismi Indipendenti di Valutazione della performance (O.I.V.); componente di un O.I.V. dal 2018 al 2024. 
-
-
-  Cultore della materia in ambito Public Management dal 2019; contributore e docente occasionale in tali ambiti.
+  Il mio percorso unisce una consolidata esperienza operativa e dirigenziale, maturata con crescenti responsabilità sia negli Enti Locali che nelle Agenzie dello Stato, ad una costante attività di valutazione e ricerca. In qualità di componente di Organismi Indipendenti di Valutazione (O.I.V.) e Cultore della materia universitario in Public Management, integro la capacità di analisi strategica con una forte vocazione alla sperimentazione organizzativa, accompagnando le istituzioni pubbliche nelle sfide della governance moderna.
 testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
   dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
   trasformazione digitale e I.A., governance di progetti complessi, gestione
