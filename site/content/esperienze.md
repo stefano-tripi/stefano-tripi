@@ -6,13 +6,13 @@ menu:
 ---
 ### Biografia
 
-Dirigente pubblico, dal 2022 dirigente del Settore Servizi alla Città del Comune di Carpi, che ricomprende i Servizi generali, i Servizi demografici e le Relazioni con la Città.
+*Dirigente pubblico, dal 2022 dirigente del Settore Servizi alla Città del Comune di Carpi, che ricomprende i Servizi generali, i Servizi demografici e le Relazioni con la Città.*
 
-In precedenza, dal 2020 in servizio in ruoli dirigenziali presso Enti Locali e Statali; dal 2008 al 2019 in servizio come funzionario in diversi enti locali con vari ruoli e responsabilità.
+*In precedenza, dal 2020 in servizio in ruoli dirigenziali presso Enti Locali e Statali; dal 2008 al 2019 in servizio come funzionario in diversi enti locali con vari ruoli e responsabilità.*
 
-Iscritto all’Elenco nazionale dei componenti degli Organismi Indipendenti di Valutazione della performance (O.I.V.) dal 2017 in fascia 1, e dal 2021 in fascia 2; componente di un O.I.V. di un Ente Locale dal 2018 al 2024.
+*Iscritto all’Elenco nazionale dei componenti degli Organismi Indipendenti di Valutazione della performance (O.I.V.) dal 2017 in fascia 1, e dal 2021 in fascia 2; componente di un O.I.V. di un Ente Locale dal 2018 al 2024.*
 
-Laureato in Scienze Politiche – Scienze dell’Organizzazione – e in Economia – Valutazione delle Politiche Pubbliche. Ha ottenuto un master in Management Pubblico, una specializzazione in Studi sull’Amministrazione Pubblica, ed ha frequentato il VII Corso-Concorso per dirigenti pubblici della Scuola Nazionale dell’Amministrazione presso la Presidenza del Consiglio dei Ministri. E' cultore della materia universitario, in ambito Public Management.
+*Laureato in Scienze Politiche – Scienze dell’Organizzazione – e in Economia – Valutazione delle Politiche Pubbliche. Ha ottenuto un master in Management Pubblico, una specializzazione in Studi sull’Amministrazione Pubblica, ed ha frequentato il VII Corso-Concorso per dirigenti pubblici della Scuola Nazionale dell’Amministrazione presso la Presidenza del Consiglio dei Ministri. E' cultore della materia universitario, in ambito Public Management.*
 
 ### Esperienze
 
