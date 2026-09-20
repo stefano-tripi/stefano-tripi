@@ -14,6 +14,7 @@ intro_bio: >
   istituzionali.
 
 
+
   Il mio percorso unisce una consolidata esperienza dirigenziale — maturata negli Enti Locali e nelle Agenzie dello Stato — all'attività di ricerca e valutazione come componente O.I.V. e Cultore in Public Management. Combino analisi strategica e inclinazione alla sperimentazione per accompagnare le istituzioni nelle sfide della governance moderna.
 testo_esperienze_sintesi: 💼 Gestione di strutture pubbliche anche di grandi
   dimensioni, servizi al cittadino e di staff, sviluppo organizzativo,
