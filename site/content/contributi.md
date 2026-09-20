@@ -1,5 +1,5 @@
 ---
-title: Contributi e Pubblicazioni
+title: Contributi, pubblicazioni, interventi
 menu:
   main:
     name: Contributi, pubblicazioni, interventi
