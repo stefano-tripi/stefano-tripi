@@ -4,13 +4,15 @@ menu:
   main:
     name: Contributi, pubblicazioni, interventi
 ---
-Ultimo contributo: Pattaro A.F., Tripi S. (2026), *Quale management pubblico nell’innovazione dei servizi amministrativi e creazione di valore nell’era dell’Intelligenza Artificiale? Alcune esperienze e riflessioni.* XLI Convegno nazionale AIDEA - Le intelligenze aziendali per la competitività sostenibile e il bene comune
+Ultimo contributo: Pattaro A.F., Tripi S. (2026), Il management pubblico e l’approccio all’innovazione nei servizi amministrativi al cittadino all’epoca dell’intelligenza artificiale, Azienda Pubblica, n. 3/2026
 
 <!--more-->
 
 ### Tutte le pubblicazioni:
 
-* Pattaro A.F., Tripi S. (2026), *[Quale management pubblico nell’innovazione dei servizi amministrativi e creazione di valore nell’era dell’Intelligenza Artificiale? Alcune esperienze e riflessioni.](https://www.accademiaaidea.it/atti-dei-convegni/)* XLI Convegno nazionale AIDEA - Le intelligenze aziendali per la competitività sostenibile e il bene comune
+* * Pattaro A.F., Tripi S. (2026), *[Il management pubblico e l’approccio all’innovazione nei servizi amministrativi al cittadino all’epoca dell’intelligenza artificiale,](https://www.periodicimaggioli.it/rivista/azienda-pubblica/1615063/2026/fascicolo/3238853)* Azienda Pubblica, n. 3/2026
+
+  * Pattaro A.F., Tripi S. (2026), *[Quale management pubblico nell’innovazione dei servizi amministrativi e creazione di valore nell’era dell’Intelligenza Artificiale? Alcune esperienze e riflessioni.](https://www.accademiaaidea.it/atti-dei-convegni/)* XLI Convegno nazionale AIDEA - Le intelligenze aziendali per la competitività sostenibile e il bene comune
 * Piccarreta D., Ranuzzini M., Tripi S., Vaccari A. (2025). *[Controlli interni e servizi pubblici locali a rilevanza economica: oltre l'adempimento, per la governance della qualità dei servizi e verso il valore pubblico](https://www.osservatorio-finpa.it/rivista-finpa/controlli-interni-e-servizi-pubblici-locali-a-rilevanza-economica-oltre-ladempimento-per-la-governance-della-qualita-dei-servizi-e-verso-il-valore-pubblico/)*. Rivista di diritto, amministrazione e finanza pubblica, Vol n. 1/2026
 * Tripi S. (2021). *[Lo smart working nella Pubblica Amministrazione ai tempi del Coronavirus: alcune potenziali implicazioni manageriali e di salute mentale](https://www.francoangeli.it/riviste/Scheda_rivista.aspx?IDArticolo=69372)"*. Rivista sperimentale di freniatria, n. 2/2021
 * Tripi S. (2020). *[Amministrazione senza risultati, o risultati senza amministrazione? Paradossi e possibili soluzioni](https://www.amministrazioneincammino.luiss.it/2020/09/08/amministrazione-senza-risultati-o-risultati-senza-amministrazione-paradossi-e-possibili-soluzioni/)*. Amministrazione in cammino ([PDF](/img/2020-tripi-amministrazione-risultato.pdf))
