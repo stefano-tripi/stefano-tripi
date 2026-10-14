@@ -4,6 +4,8 @@ menu:
   main:
     name: Bio & experiences
 ---
+<img src="img/stefano_tripi_talking.jpeg" alt="Stefano Tripi al lavoro" class="w-64 md:w-72 float-right ml-6 mb-4 rounded-xl shadow-sm">
+
 A public sector executive, he has served since 2022 as Head of the City Services Department for the Municipality of Carpi, a role encompassing General Services, Civil Registry Services, and City Relations.
 
 He has held executive positions in local and state government bodies since 2020; prior to that, from 2008 to 2019, he worked as an official for various local authorities, holding diverse roles and responsibilities.
