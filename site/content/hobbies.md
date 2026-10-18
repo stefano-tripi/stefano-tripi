@@ -13,7 +13,7 @@ Commissario degustatore categoria Gin per concorso "Alambicco d'Oro" 2026.
 
 **Fotografia e tecnologia**
 
-**Fitness olistico e mindfulness**
+**Fitness olistico, mindfulness, principiante a Padel**
 
 **Libri e cinema**
 Specie se di fantascienza, fantasy, thriller politici, storia.
