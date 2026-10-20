@@ -6,7 +6,7 @@ menu:
 ---
 ### Biografia
 
-<img src="img/stefano_tripi_talking.jpeg" alt="Stefano Tripi al lavoro" class="w-64 md:w-72 float-right ml-6 mb-4 rounded-xl shadow-sm">
+<img src="/img/stefano_tripi_talking.jpeg" alt="Stefano Tripi al lavoro" class="w-64 md:w-72 float-right ml-6 mb-4 rounded-xl shadow-sm">
 
 *Dirigente pubblico, dal 2022 dirigente del Settore Servizi alla Città del Comune di Carpi, che ricomprende i Servizi generali, i Servizi demografici e le Relazioni con la Città.*
 
